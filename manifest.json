@@ -1,0 +1,21 @@
+{
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "assets/icon-32.png",
+    "default_title": "tagtab"
+  },
+  "description": "tagtab",
+  "icons": {
+    "128": "assets/icon-128.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "25",
+  "name": "tagtab",
+  "offline_enabled": true,
+  "permissions": ["tabs", "bookmarks", "history"],
+  "version": "2020.3.17"
+}
