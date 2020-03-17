@@ -4,6 +4,7 @@
   },
   "browser_action": {
     "default_icon": "assets/icon-32.png",
+    "default_popup": "src/views/popup.html",
     "default_title": "tagtab"
   },
   "description": "tagtab",
